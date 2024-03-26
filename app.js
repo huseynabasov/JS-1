@@ -14,7 +14,7 @@ console.log(user.endsWith(user.charAt(1)));
 console.log(user.indexOf(user.charAt(1)));
 
 // Tapsiriq 6
-let str = "Salam Dunya";
+let str = prompt("Salam Dunya");
 let cvb = /^SALAM/.test(str);
 let cvb1 = /^salam/.test(str);
 let cvb2 = /^Salam/.test(str);
@@ -23,4 +23,4 @@ let cvb3 = /^saLaM/.test(str);
 console.log(cvb); 
 console.log(cvb1); 
 console.log(cvb2);
-console.log(cvb3); 
+console.log(cvb3);  
